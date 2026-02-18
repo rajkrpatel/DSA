@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\Preparation\DSA\.metadata\.plugins\org.eclipse.jdt.core
-1195455883.index
-3114549601.index
-1200522136.index
