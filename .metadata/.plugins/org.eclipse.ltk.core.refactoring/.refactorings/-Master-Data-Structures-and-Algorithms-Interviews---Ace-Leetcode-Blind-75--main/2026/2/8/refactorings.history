@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;0049-group-anagrams.java&apos; to &apos;DSA/src/com.array&apos;&#x0D;&#x0A;- Original project: &apos;-Master-Data-Structures-and-Algorithms-Interviews---Ace-Leetcode-Blind-75--main&apos;&#x0D;&#x0A;- Destination element: &apos;DSA/src/com.array&apos;&#x0D;&#x0A;- Original element: &apos;0049-group-anagrams.java&apos;" description="Copy file" destination="=DSA/src&lt;com.array" element1="0049-group-anagrams/0049-group-anagrams.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1771342022943" units="0" version="1.0"/>
+</session>

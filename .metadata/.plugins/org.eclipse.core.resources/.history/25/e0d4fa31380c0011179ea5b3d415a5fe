@@ -1,0 +1,21 @@
+package com.array;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class KmostFrequentElement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] nums = {1, 1, 1, 2, 2, 3};
+		int k = 2;
+		
+		Map<Integer, Integer> frequencyMap = new HashMap<Integer, Integer>();
+		
+		for(int i : nums) {
+			frequencyMap.put(i, frequencyMap.getOrDefault(i, 0)+1);
+		}
+		System.out.println(frequencyMap);
+	}
+
+}
