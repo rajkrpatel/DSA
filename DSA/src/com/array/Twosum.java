@@ -19,20 +19,17 @@ public class Twosum {
 		// TODO Auto-generated method stub
 		int[] list = { 8, 5, 4, 15, 12, 7, 2 };
 		int target = 11;
-		System.out.println("Printing Result ");
-		
-		Map<Integer, Integer> map = new HashMap<>();
+		//create a map with key as number and value as indice
+		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 		
 		for(int i=0; i<list.length; i++) {
-			int requiredNum = target - list[i];
-			if(map.containsKey(requiredNum)) {
-				System.out.println("Indices are :" + i + " and " + map.get(requiredNum) );
-				break;
-			} else {
+			int diff = target - list[i];
+			if(map.get(diff) == null) {
 				map.put(list[i], i);
+			} else {
+				System.out.println("Indices are :" + i + " & " + map.get(diff));
 			}
-			
 		}
+		
 	}
-
 }
