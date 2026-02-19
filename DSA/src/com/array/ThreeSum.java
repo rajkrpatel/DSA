@@ -35,7 +35,7 @@ public class ThreeSum {
 				} else if(first + nums[left] + nums[right] > target) {
 					right--;
 				} else {
-					left--;
+					left++;
 				}				
 			}
 		}
