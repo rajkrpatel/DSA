@@ -16,8 +16,7 @@ public class AnagramGroup {
 		for(char c: s.toCharArray()) {
 			charCount.put(c, charCount.getOrDefault(c, 0) + 1);
 		}
-		
-		charCount.forEach();
+
 		
 		return s;
 	}

@@ -12,7 +12,6 @@ public class GroupAnagrams {
         		chararr[c-'a']++;
         	}
         	String key = String.valueOf(chararr);
-        	anagramMap.computeIfAbsent(key, k->k);
         }
         
         return new ArrayList<>(anagramMap.values());
