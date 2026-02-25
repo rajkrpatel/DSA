@@ -1,4 +1,4 @@
-package linkedlist;
+package com.linkedlist;
 
 public class LinkedListHasCycle {
     public static static void main(String[] args) {
