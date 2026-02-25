@@ -1,7 +1,7 @@
 package com.linkedlist;
 
 public class LinkedListHasCycle {
-    public static static void main(String[] args) {
+    public static void main(String[] args) {
         hasCycle(new ListNode());
     }
 
